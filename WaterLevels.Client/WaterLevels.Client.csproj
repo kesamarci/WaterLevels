@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="InputData\**" />
+    <EmbeddedResource Remove="InputData\**" />
+    <None Remove="InputData\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WaterLevels.Models\WaterLevels.Models.csproj" />
+  </ItemGroup>
+
+</Project>

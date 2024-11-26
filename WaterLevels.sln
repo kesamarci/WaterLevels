@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterLevels", "WaterLevels\WaterLevels.csproj", "{BD27475A-D74A-4DF2-A626-807105CDE5DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterLevels.Database", "WaterLevels.Database\WaterLevels.Database.csproj", "{0C938AF2-72E2-422D-8CDD-C67377C90A5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterLevels.Models", "WaterLevels.Models\WaterLevels.Models.csproj", "{2CB95885-8F36-4703-A075-D1D1DE3F4CBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterLevels.Repo", "WaterLevels.Repo\WaterLevels.Repo.csproj", "{99174C21-03CB-4D86-9744-68DDEF143597}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterLevels.Logic", "WaterLevels.Logic\WaterLevels.Logic.csproj", "{EC4937A3-11A9-428E-8B87-BD0E6510E5E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterLevels.Client", "WaterLevels.Client\WaterLevels.Client.csproj", "{301B43DE-F098-45F3-A66B-4FE32F28C574}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD27475A-D74A-4DF2-A626-807105CDE5DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD27475A-D74A-4DF2-A626-807105CDE5DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD27475A-D74A-4DF2-A626-807105CDE5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD27475A-D74A-4DF2-A626-807105CDE5DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C938AF2-72E2-422D-8CDD-C67377C90A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C938AF2-72E2-422D-8CDD-C67377C90A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C938AF2-72E2-422D-8CDD-C67377C90A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C938AF2-72E2-422D-8CDD-C67377C90A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CB95885-8F36-4703-A075-D1D1DE3F4CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB95885-8F36-4703-A075-D1D1DE3F4CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB95885-8F36-4703-A075-D1D1DE3F4CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB95885-8F36-4703-A075-D1D1DE3F4CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99174C21-03CB-4D86-9744-68DDEF143597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99174C21-03CB-4D86-9744-68DDEF143597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99174C21-03CB-4D86-9744-68DDEF143597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99174C21-03CB-4D86-9744-68DDEF143597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC4937A3-11A9-428E-8B87-BD0E6510E5E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4937A3-11A9-428E-8B87-BD0E6510E5E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4937A3-11A9-428E-8B87-BD0E6510E5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4937A3-11A9-428E-8B87-BD0E6510E5E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301B43DE-F098-45F3-A66B-4FE32F28C574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301B43DE-F098-45F3-A66B-4FE32F28C574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301B43DE-F098-45F3-A66B-4FE32F28C574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301B43DE-F098-45F3-A66B-4FE32F28C574}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
